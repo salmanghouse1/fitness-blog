@@ -8,7 +8,7 @@ const { Model, DataTypes } = require('sequelize');
 
 class Users extends Model {}
 
-
+// initialize the model table or define
 Users.init({
     id: {
         type: DataTypes.INTEGER,
